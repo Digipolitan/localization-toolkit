@@ -1,77 +1,34 @@
 LocalizationToolkit
 =================================
 
-[![Build Status](https://travis-ci.org/Digipolitan/framework-swift-template.svg?branch=master)](https://travis-ci.org/Digipolitan/framework-swift-template)
+[![Build Status](https://travis-ci.org/Digipolitan/localization-toolkit.svg?branch=master)](https://travis-ci.org/Digipolitan/localization-toolkit)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/LocalizationToolkit.svg)](https://img.shields.io/cocoapods/v/LocalizationToolkit.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/LocalizationToolkit.svg?style=flat)](http://cocoadocs.org/docsets/LocalizationToolkit)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
+LocalizationToolkit Swift is an helper for String Localization
+
 ## Installation
 
-### Using digipolitan-framework-swift-template-cli
+### CocoaPods
 
-```Shell
-gem install digipolitan-framework-swift-template-cli
+To install LocalizationToolkit with CocoaPods, add the following lines to your `Podfile`.
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0' # or platform :osx, '10.10' if your target is OS X.
+use_frameworks!
+
+pod 'LocalizationToolkit'
 ```
 
-And then execute the follow command
+## The Basics
 
-```Shell
-dg-fst --init
+```swift
+let loc = "my_loc_key".localized()
+print("\(loc)")
 ```
-
-Check all available options [here](https://github.com/Digipolitan/framework-swift-template-cli)
-
-### Manually
-
-First download the zip file and install bundler
-
-```Shell
-[sudo] gem install bundler
-bundle install
-```
-
-Then execute the **install.rb** and follow the instructions
-
-```Shell
-bundle exec ruby install.rb
-```
-
-## Features
-
-* Xcode setup and ready to deploy Swift Framework
-* [Travis](https://travis-ci.org) : Travis CI is configure into [.travis.yml](.travis.yml) and ready to execute [Digipolitan CI lanes](https://github.com/Digipolitan/fastlane-ios-ci-framework)
-* [Fastlane](https://fastlane.tools/) : The [Fastfile](fastlane/Fastfile) is configure to download [Digipolitan CI lanes](https://github.com/Digipolitan/fastlane-ios-ci-framework)
-* [Swift Package Manager](https://github.com/apple/swift-package-manager) : The [Package.swift](Package.swift) created without dependencies
-* [CocoaPods](https://cocoapods.org/) : The [Podfile](Podfile) and the [Podspec](LocalizationToolkit.podspec) are created without dependencies
-* [SwifLint](https://github.com/realm/SwiftLint) : The [.swiftlint.yml](.swiftlint.yml) is created and a run script is added to **Xcode Build Phases** to run for each build
-* [RubyGems](https://rubygems.org/) : The [Gemfile](Gemfile) contains ruby dependencies such as Fastlane, run `bundle install` to install these dependencies into your machine
-* [Homebrew](http://brew.sh/index_fr.html) : The [Brewfile](Brewfile) contains non-ruby dependencies such as git-flow, run `brew bundle` to install these dependencies into your machine
-
-## How to deploy ?
-
-First install deployment dependencies
-```Shell
-bundle install && brew bundle
-```
-
-Run the following lane to start a new release version on git :
-```Shell
-fastlane start_framework_release
-```
-This lane is a part of [Digipolitan lanes](https://github.com/Digipolitan/fastlane-ios-framework)
-
-Check if everything is OK, after that publish the new release version on git
-```Shell
-fastlane publish_framework_release
-```
-This lane is a part of [Digipolitan lanes](https://github.com/Digipolitan/fastlane-ios-framework)
-
-After that 2 options are available :
-- If you keep Travis CI : Travis will run tests and will deploy CocoaPods and GitHub release
-- Otherwise you must run lanes yourself `framework_deploy_cocoapods` and `framework_deploy_github` part of [Digipolitan lanes](https://github.com/Digipolitan/fastlane-ios-framework)
-
 
 ## Contributing
 
