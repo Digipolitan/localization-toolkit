@@ -1,0 +1,10 @@
+/* 
+  Others.strings
+  LocalizationToolkit
+
+  Created by Benoit BRIATTE on 24/10/2017.
+  Copyright © 2017 Digipolitan. All rights reserved.
+*/
+
+"test_key" = "Bye";
+"test_args" = "Bye mr %2$@, Hello mr %1$@";
