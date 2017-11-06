@@ -16,14 +16,14 @@
 		A3169DBA1DE05E8300BABAFD /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* LocalizationToolkit.framework */; };
 		A3169DF81DE0718900BABAFD /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* LocalizationToolkit.framework */; };
 		A3169E151DE072C800BABAFD /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* LocalizationToolkit.framework */; };
-		A3169E761DE083D900BABAFD /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E771DE083D900BABAFD /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E791DE083D900BABAFD /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A384D7AE1F9F35A70056B13D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384D7AD1F9F35A70056B13D /* String+Localization.swift */; };
-		A384D7AF1F9F35A70056B13D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384D7AD1F9F35A70056B13D /* String+Localization.swift */; };
-		A384D7B01F9F35A70056B13D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384D7AD1F9F35A70056B13D /* String+Localization.swift */; };
-		A384D7B11F9F35A70056B13D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384D7AD1F9F35A70056B13D /* String+Localization.swift */; };
+		A370DEC61FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEC71FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEC81FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEC91FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DECA1FB0A49C000FEDED /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEC51FB0A49C000FEDED /* String+Localization.swift */; };
+		A370DECB1FB0A49C000FEDED /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEC51FB0A49C000FEDED /* String+Localization.swift */; };
+		A370DECC1FB0A49C000FEDED /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEC51FB0A49C000FEDED /* String+Localization.swift */; };
+		A370DECD1FB0A49C000FEDED /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEC51FB0A49C000FEDED /* String+Localization.swift */; };
 		A384D7BA1F9F36100056B13D /* Others.strings in Resources */ = {isa = PBXBuildFile; fileRef = A384D7BE1F9F36100056B13D /* Others.strings */; };
 		A384D7BB1F9F36100056B13D /* Others.strings in Resources */ = {isa = PBXBuildFile; fileRef = A384D7BE1F9F36100056B13D /* Others.strings */; };
 		A384D7BC1F9F36100056B13D /* Others.strings in Resources */ = {isa = PBXBuildFile; fileRef = A384D7BE1F9F36100056B13D /* Others.strings */; };
@@ -84,8 +84,8 @@
 		A3169DF71DE0718900BABAFD /* LocalizationToolkitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocalizationToolkitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* LocalizationToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizationToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* LocalizationToolkitTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocalizationToolkitTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* LocalizationToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationToolkit.h; sourceTree = "<group>"; };
-		A384D7AD1F9F35A70056B13D /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationToolkit.h; sourceTree = "<group>"; };
+		A370DEC51FB0A49C000FEDED /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		A384D7BD1F9F36100056B13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Others.strings; sourceTree = "<group>"; };
 		A384D7C21F9F36130056B13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* LocalizationToolkitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationToolkitTests.swift; sourceTree = "<group>"; };
@@ -203,8 +203,7 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A384D7AD1F9F35A70056B13D /* String+Localization.swift */,
-				A3169E751DE083D900BABAFD /* LocalizationToolkit.h */,
+				A370DEC31FB0A49C000FEDED /* LocalizationToolkit */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
 			);
 			path = Sources;
@@ -217,6 +216,15 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A370DEC31FB0A49C000FEDED /* LocalizationToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */,
+				A370DEC51FB0A49C000FEDED /* String+Localization.swift */,
+			);
+			path = LocalizationToolkit;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* LocalizationToolkitTests */ = {
@@ -257,7 +265,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* LocalizationToolkit.h in Headers */,
+				A370DEC81FB0A49C000FEDED /* LocalizationToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +273,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E791DE083D900BABAFD /* LocalizationToolkit.h in Headers */,
+				A370DEC91FB0A49C000FEDED /* LocalizationToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +281,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* LocalizationToolkit.h in Headers */,
+				A370DEC61FB0A49C000FEDED /* LocalizationToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E771DE083D900BABAFD /* LocalizationToolkit.h in Headers */,
+				A370DEC71FB0A49C000FEDED /* LocalizationToolkit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,7 +915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A384D7AE1F9F35A70056B13D /* String+Localization.swift in Sources */,
+				A370DECA1FB0A49C000FEDED /* String+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,7 +931,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A384D7AF1F9F35A70056B13D /* String+Localization.swift in Sources */,
+				A370DECB1FB0A49C000FEDED /* String+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,7 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A384D7B01F9F35A70056B13D /* String+Localization.swift in Sources */,
+				A370DECC1FB0A49C000FEDED /* String+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -947,7 +955,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A384D7B11F9F35A70056B13D /* String+Localization.swift in Sources */,
+				A370DECD1FB0A49C000FEDED /* String+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
