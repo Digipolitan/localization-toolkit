@@ -8,6 +8,8 @@
 
 import UIKit
 
+#if os(iOS) || os(tvOS)
+
 extension UINib {
 
     public static func localizedNibNamed(name: String, bundle: Bundle = .main) -> UINib {
@@ -15,3 +17,5 @@ extension UINib {
     }
 
 }
+
+#endif

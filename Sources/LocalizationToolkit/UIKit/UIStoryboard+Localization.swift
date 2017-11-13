@@ -8,9 +8,13 @@
 
 import UIKit
 
+#if os(iOS) || os(tvOS)
+
 extension UIStoryboard {
 
     public static func localizedStoryboardNamed(name: String, bundle: Bundle = .main) -> UIStoryboard {
         return UIStoryboard(name: name, bundle: Localization.shared.localizedBundle(from: bundle))
     }
 }
+
+#endif
