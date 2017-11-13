@@ -16,28 +16,6 @@
 		A3169DBA1DE05E8300BABAFD /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* LocalizationToolkit.framework */; };
 		A3169DF81DE0718900BABAFD /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* LocalizationToolkit.framework */; };
 		A3169E151DE072C800BABAFD /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* LocalizationToolkit.framework */; };
-		A31AF0171FB8FADE004D919D /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF00C1FB8FADD004D919D /* Bundle+Localization.swift */; };
-		A31AF0181FB8FADE004D919D /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF00C1FB8FADD004D919D /* Bundle+Localization.swift */; };
-		A31AF0191FB8FADE004D919D /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF00C1FB8FADD004D919D /* Bundle+Localization.swift */; };
-		A31AF01A1FB8FADE004D919D /* UIStoryboard+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF00E1FB8FADD004D919D /* UIStoryboard+Localization.swift */; };
-		A31AF01C1FB8FADE004D919D /* UIStoryboard+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF00E1FB8FADD004D919D /* UIStoryboard+Localization.swift */; };
-		A31AF01D1FB8FADE004D919D /* UIImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0101FB8FADD004D919D /* UIImage+Localization.swift */; };
-		A31AF01E1FB8FADE004D919D /* UIImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0101FB8FADD004D919D /* UIImage+Localization.swift */; };
-		A31AF01F1FB8FADE004D919D /* UIImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0101FB8FADD004D919D /* UIImage+Localization.swift */; };
-		A31AF0201FB8FADE004D919D /* UINib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0121FB8FADD004D919D /* UINib+Localization.swift */; };
-		A31AF0221FB8FADE004D919D /* UINib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0121FB8FADD004D919D /* UINib+Localization.swift */; };
-		A31AF0261FB8FADE004D919D /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0151FB8FADD004D919D /* MultilingualString.swift */; };
-		A31AF0271FB8FADE004D919D /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0151FB8FADD004D919D /* MultilingualString.swift */; };
-		A31AF0281FB8FADE004D919D /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0151FB8FADD004D919D /* MultilingualString.swift */; };
-		A31AF0291FB8FADE004D919D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0161FB8FADD004D919D /* String+Localization.swift */; };
-		A31AF02A1FB8FADE004D919D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0161FB8FADD004D919D /* String+Localization.swift */; };
-		A31AF02B1FB8FADE004D919D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0161FB8FADD004D919D /* String+Localization.swift */; };
-		A31AF02C1FB8FAE6004D919D /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF00C1FB8FADD004D919D /* Bundle+Localization.swift */; };
-		A31AF02D1FB8FB2E004D919D /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0151FB8FADD004D919D /* MultilingualString.swift */; };
-		A31AF02E1FB8FB2E004D919D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0161FB8FADD004D919D /* String+Localization.swift */; };
-		A31AF0301FB8FB4C004D919D /* NSImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF02F1FB8FB4C004D919D /* NSImage+Localization.swift */; };
-		A31AF0321FB8FBF4004D919D /* NSStoryboad+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0311FB8FBF4004D919D /* NSStoryboad+Localization.swift */; };
-		A31AF0341FB8FCA2004D919D /* NSNib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0131FB8FADD004D919D /* NSNib+Localization.swift */; };
 		A33B2BFB1FB986A4009A94FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A33B2BFF1FB986A4009A94FA /* apple.png */; };
 		A33B2BFC1FB986A4009A94FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A33B2BFF1FB986A4009A94FA /* apple.png */; };
 		A33B2BFD1FB986A4009A94FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A33B2BFF1FB986A4009A94FA /* apple.png */; };
@@ -47,6 +25,28 @@
 		A33B2C111FB98EF1009A94FA /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */; };
 		A33B2C121FB98EF1009A94FA /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */; };
 		A33B2C171FB99042009A94FA /* SampleStoryboard~osx.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C191FB99042009A94FA /* SampleStoryboard~osx.storyboard */; };
+		A33B2C2D1FB993FA009A94FA /* UIImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */; };
+		A33B2C2E1FB993FA009A94FA /* UIImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */; };
+		A33B2C2F1FB993FA009A94FA /* UIImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */; };
+		A33B2C311FB993FA009A94FA /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */; };
+		A33B2C321FB993FA009A94FA /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */; };
+		A33B2C331FB993FA009A94FA /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */; };
+		A33B2C341FB993FA009A94FA /* Bundle+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */; };
+		A33B2C381FB993FA009A94FA /* NSImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C201FB993FA009A94FA /* NSImage+Localization.swift */; };
+		A33B2C3C1FB993FA009A94FA /* NSNib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C211FB993FA009A94FA /* NSNib+Localization.swift */; };
+		A33B2C401FB993FA009A94FA /* NSStoryboad+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C221FB993FA009A94FA /* NSStoryboad+Localization.swift */; };
+		A33B2C411FB993FA009A94FA /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C231FB993FA009A94FA /* String+Localization.swift */; };
+		A33B2C421FB993FA009A94FA /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C231FB993FA009A94FA /* String+Localization.swift */; };
+		A33B2C431FB993FA009A94FA /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C231FB993FA009A94FA /* String+Localization.swift */; };
+		A33B2C441FB993FA009A94FA /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C231FB993FA009A94FA /* String+Localization.swift */; };
+		A33B2C451FB993FA009A94FA /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C241FB993FA009A94FA /* MultilingualString.swift */; };
+		A33B2C461FB993FA009A94FA /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C241FB993FA009A94FA /* MultilingualString.swift */; };
+		A33B2C471FB993FA009A94FA /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C241FB993FA009A94FA /* MultilingualString.swift */; };
+		A33B2C481FB993FA009A94FA /* MultilingualString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C241FB993FA009A94FA /* MultilingualString.swift */; };
+		A33B2C4C1FB994E4009A94FA /* UIStoryboard+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C4A1FB994E4009A94FA /* UIStoryboard+Localization.swift */; };
+		A33B2C4D1FB994E4009A94FA /* UIStoryboard+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C4A1FB994E4009A94FA /* UIStoryboard+Localization.swift */; };
+		A33B2C4E1FB994E4009A94FA /* UINib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C4B1FB994E4009A94FA /* UINib+Localization.swift */; };
+		A33B2C4F1FB994E4009A94FA /* UINib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33B2C4B1FB994E4009A94FA /* UINib+Localization.swift */; };
 		A370DEC61FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A370DEC71FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A370DEC81FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -115,20 +115,20 @@
 		A3169DF71DE0718900BABAFD /* LocalizationToolkitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocalizationToolkitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* LocalizationToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizationToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* LocalizationToolkitTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocalizationToolkitTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A31AF00C1FB8FADD004D919D /* Bundle+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Localization.swift"; sourceTree = "<group>"; };
-		A31AF00E1FB8FADD004D919D /* UIStoryboard+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Localization.swift"; sourceTree = "<group>"; };
-		A31AF0101FB8FADD004D919D /* UIImage+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Localization.swift"; sourceTree = "<group>"; };
-		A31AF0121FB8FADD004D919D /* UINib+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Localization.swift"; sourceTree = "<group>"; };
-		A31AF0131FB8FADD004D919D /* NSNib+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNib+Localization.swift"; sourceTree = "<group>"; };
-		A31AF0151FB8FADD004D919D /* MultilingualString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilingualString.swift; sourceTree = "<group>"; };
-		A31AF0161FB8FADD004D919D /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
-		A31AF02F1FB8FB4C004D919D /* NSImage+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Localization.swift"; sourceTree = "<group>"; };
-		A31AF0311FB8FBF4004D919D /* NSStoryboad+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSStoryboad+Localization.swift"; sourceTree = "<group>"; };
 		A33B2BFE1FB986A4009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/apple.png; sourceTree = "<group>"; };
 		A33B2C071FB987FC009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SampleView.xib; sourceTree = "<group>"; };
 		A33B2C0C1FB98DEC009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/SampleView~osx.xib"; sourceTree = "<group>"; };
 		A33B2C131FB98EF1009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/SampleStoryboard.storyboard; sourceTree = "<group>"; };
 		A33B2C181FB99042009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/SampleStoryboard~osx.storyboard"; sourceTree = "<group>"; };
+		A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C201FB993FA009A94FA /* NSImage+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C211FB993FA009A94FA /* NSNib+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNib+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C221FB993FA009A94FA /* NSStoryboad+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSStoryboad+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C231FB993FA009A94FA /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C241FB993FA009A94FA /* MultilingualString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilingualString.swift; sourceTree = "<group>"; };
+		A33B2C4A1FB994E4009A94FA /* UIStoryboard+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Localization.swift"; sourceTree = "<group>"; };
+		A33B2C4B1FB994E4009A94FA /* UINib+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINib+Localization.swift"; sourceTree = "<group>"; };
 		A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationToolkit.h; sourceTree = "<group>"; };
 		A384D7BD1F9F36100056B13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Others.strings; sourceTree = "<group>"; };
 		A384D7C21F9F36130056B13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -263,48 +263,32 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		A31AF00B1FB8FADD004D919D /* Bundle */ = {
+		A33B2C1A1FB993F9009A94FA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				A31AF00C1FB8FADD004D919D /* Bundle+Localization.swift */,
+				A33B2C491FB994E4009A94FA /* iOS - tvOS */,
+				A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */,
 			);
-			path = Bundle;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
-		A31AF00D1FB8FADD004D919D /* Storyboard */ = {
+		A33B2C1F1FB993FA009A94FA /* AppKit */ = {
 			isa = PBXGroup;
 			children = (
-				A31AF00E1FB8FADD004D919D /* UIStoryboard+Localization.swift */,
-				A31AF0311FB8FBF4004D919D /* NSStoryboad+Localization.swift */,
+				A33B2C201FB993FA009A94FA /* NSImage+Localization.swift */,
+				A33B2C211FB993FA009A94FA /* NSNib+Localization.swift */,
+				A33B2C221FB993FA009A94FA /* NSStoryboad+Localization.swift */,
 			);
-			path = Storyboard;
+			path = AppKit;
 			sourceTree = "<group>";
 		};
-		A31AF00F1FB8FADD004D919D /* Image */ = {
+		A33B2C491FB994E4009A94FA /* iOS - tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				A31AF0101FB8FADD004D919D /* UIImage+Localization.swift */,
-				A31AF02F1FB8FB4C004D919D /* NSImage+Localization.swift */,
+				A33B2C4A1FB994E4009A94FA /* UIStoryboard+Localization.swift */,
+				A33B2C4B1FB994E4009A94FA /* UINib+Localization.swift */,
 			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		A31AF0111FB8FADD004D919D /* Nib */ = {
-			isa = PBXGroup;
-			children = (
-				A31AF0121FB8FADD004D919D /* UINib+Localization.swift */,
-				A31AF0131FB8FADD004D919D /* NSNib+Localization.swift */,
-			);
-			path = Nib;
-			sourceTree = "<group>";
-		};
-		A31AF0141FB8FADD004D919D /* String */ = {
-			isa = PBXGroup;
-			children = (
-				A31AF0151FB8FADD004D919D /* MultilingualString.swift */,
-				A31AF0161FB8FADD004D919D /* String+Localization.swift */,
-			);
-			path = String;
+			path = "iOS - tvOS";
 			sourceTree = "<group>";
 		};
 		A370DEC31FB0A49C000FEDED /* LocalizationToolkit */ = {
@@ -312,11 +296,11 @@
 			children = (
 				A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */,
 				A3892C0A1FB7CDE6009C2712 /* Localization.swift */,
-				A31AF00B1FB8FADD004D919D /* Bundle */,
-				A31AF00F1FB8FADD004D919D /* Image */,
-				A31AF0111FB8FADD004D919D /* Nib */,
-				A31AF00D1FB8FADD004D919D /* Storyboard */,
-				A31AF0141FB8FADD004D919D /* String */,
+				A33B2C1F1FB993FA009A94FA /* AppKit */,
+				A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */,
+				A33B2C241FB993FA009A94FA /* MultilingualString.swift */,
+				A33B2C231FB993FA009A94FA /* String+Localization.swift */,
+				A33B2C1A1FB993F9009A94FA /* UIKit */,
 			);
 			path = LocalizationToolkit;
 			sourceTree = "<group>";
@@ -1023,13 +1007,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31AF01D1FB8FADE004D919D /* UIImage+Localization.swift in Sources */,
-				A31AF0201FB8FADE004D919D /* UINib+Localization.swift in Sources */,
-				A31AF0291FB8FADE004D919D /* String+Localization.swift in Sources */,
-				A31AF0171FB8FADE004D919D /* Bundle+Localization.swift in Sources */,
-				A31AF01A1FB8FADE004D919D /* UIStoryboard+Localization.swift in Sources */,
-				A31AF0261FB8FADE004D919D /* MultilingualString.swift in Sources */,
+				A33B2C311FB993FA009A94FA /* Bundle+Localization.swift in Sources */,
+				A33B2C411FB993FA009A94FA /* String+Localization.swift in Sources */,
+				A33B2C4E1FB994E4009A94FA /* UINib+Localization.swift in Sources */,
 				A3892C0B1FB7CDE6009C2712 /* Localization.swift in Sources */,
+				A33B2C4C1FB994E4009A94FA /* UIStoryboard+Localization.swift in Sources */,
+				A33B2C2D1FB993FA009A94FA /* UIImage+Localization.swift in Sources */,
+				A33B2C451FB993FA009A94FA /* MultilingualString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1045,11 +1029,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31AF02A1FB8FADE004D919D /* String+Localization.swift in Sources */,
-				A31AF01E1FB8FADE004D919D /* UIImage+Localization.swift in Sources */,
-				A31AF0181FB8FADE004D919D /* Bundle+Localization.swift in Sources */,
+				A33B2C321FB993FA009A94FA /* Bundle+Localization.swift in Sources */,
+				A33B2C421FB993FA009A94FA /* String+Localization.swift in Sources */,
 				A3892C0C1FB7CDE7009C2712 /* Localization.swift in Sources */,
-				A31AF0271FB8FADE004D919D /* MultilingualString.swift in Sources */,
+				A33B2C2E1FB993FA009A94FA /* UIImage+Localization.swift in Sources */,
+				A33B2C461FB993FA009A94FA /* MultilingualString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,13 +1041,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31AF01F1FB8FADE004D919D /* UIImage+Localization.swift in Sources */,
-				A31AF0221FB8FADE004D919D /* UINib+Localization.swift in Sources */,
-				A31AF02B1FB8FADE004D919D /* String+Localization.swift in Sources */,
-				A31AF0191FB8FADE004D919D /* Bundle+Localization.swift in Sources */,
-				A31AF01C1FB8FADE004D919D /* UIStoryboard+Localization.swift in Sources */,
-				A31AF0281FB8FADE004D919D /* MultilingualString.swift in Sources */,
+				A33B2C331FB993FA009A94FA /* Bundle+Localization.swift in Sources */,
+				A33B2C431FB993FA009A94FA /* String+Localization.swift in Sources */,
+				A33B2C4F1FB994E4009A94FA /* UINib+Localization.swift in Sources */,
 				A3892C0D1FB7CDE7009C2712 /* Localization.swift in Sources */,
+				A33B2C4D1FB994E4009A94FA /* UIStoryboard+Localization.swift in Sources */,
+				A33B2C2F1FB993FA009A94FA /* UIImage+Localization.swift in Sources */,
+				A33B2C471FB993FA009A94FA /* MultilingualString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1079,13 +1063,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31AF02D1FB8FB2E004D919D /* MultilingualString.swift in Sources */,
-				A31AF0341FB8FCA2004D919D /* NSNib+Localization.swift in Sources */,
-				A31AF0321FB8FBF4004D919D /* NSStoryboad+Localization.swift in Sources */,
-				A31AF02C1FB8FAE6004D919D /* Bundle+Localization.swift in Sources */,
-				A31AF0301FB8FB4C004D919D /* NSImage+Localization.swift in Sources */,
+				A33B2C341FB993FA009A94FA /* Bundle+Localization.swift in Sources */,
+				A33B2C3C1FB993FA009A94FA /* NSNib+Localization.swift in Sources */,
+				A33B2C441FB993FA009A94FA /* String+Localization.swift in Sources */,
 				A3892C0E1FB7CDE7009C2712 /* Localization.swift in Sources */,
-				A31AF02E1FB8FB2E004D919D /* String+Localization.swift in Sources */,
+				A33B2C381FB993FA009A94FA /* NSImage+Localization.swift in Sources */,
+				A33B2C401FB993FA009A94FA /* NSStoryboad+Localization.swift in Sources */,
+				A33B2C481FB993FA009A94FA /* MultilingualString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
