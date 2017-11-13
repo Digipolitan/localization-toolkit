@@ -11,7 +11,7 @@ import Foundation
 extension String {
 
     public func localized(bundle: Bundle = .main, table: String? = nil, value: String? = nil) -> String {
-        return bundle.localizedString(forKey: self, value: value, table: table)
+        return Localization.shared.localizedBundle(from: bundle)?.localizedString(forKey: self, value: value, table: table) ?? self
     }
 
     public func localized(bundle: Bundle = .main, table: String? = nil, value: String? = nil, arguments: CVarArg...) -> String {
@@ -19,6 +19,6 @@ extension String {
     }
 
     public func localized(bundle: Bundle = .main, table: String? = nil, value: String? = nil, arguments: [CVarArg]) -> String {
-        return String(format: bundle.localizedString(forKey: self, value: value, table: table), arguments: arguments)
+        return String(format: self.localized(bundle: bundle, table: table, value: value), arguments: arguments)
     }
 }
