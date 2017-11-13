@@ -38,6 +38,15 @@
 		A31AF0301FB8FB4C004D919D /* NSImage+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF02F1FB8FB4C004D919D /* NSImage+Localization.swift */; };
 		A31AF0321FB8FBF4004D919D /* NSStoryboad+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0311FB8FBF4004D919D /* NSStoryboad+Localization.swift */; };
 		A31AF0341FB8FCA2004D919D /* NSNib+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF0131FB8FADD004D919D /* NSNib+Localization.swift */; };
+		A33B2BFB1FB986A4009A94FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A33B2BFF1FB986A4009A94FA /* apple.png */; };
+		A33B2BFC1FB986A4009A94FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A33B2BFF1FB986A4009A94FA /* apple.png */; };
+		A33B2BFD1FB986A4009A94FA /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A33B2BFF1FB986A4009A94FA /* apple.png */; };
+		A33B2C041FB987FC009A94FA /* SampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C081FB987FC009A94FA /* SampleView.xib */; };
+		A33B2C051FB987FC009A94FA /* SampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C081FB987FC009A94FA /* SampleView.xib */; };
+		A33B2C0B1FB98DEC009A94FA /* SampleView~osx.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C0D1FB98DEC009A94FA /* SampleView~osx.xib */; };
+		A33B2C111FB98EF1009A94FA /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */; };
+		A33B2C121FB98EF1009A94FA /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */; };
+		A33B2C171FB99042009A94FA /* SampleStoryboard~osx.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B2C191FB99042009A94FA /* SampleStoryboard~osx.storyboard */; };
 		A370DEC61FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A370DEC71FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A370DEC81FB0A49C000FEDED /* LocalizationToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -115,6 +124,11 @@
 		A31AF0161FB8FADD004D919D /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		A31AF02F1FB8FB4C004D919D /* NSImage+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Localization.swift"; sourceTree = "<group>"; };
 		A31AF0311FB8FBF4004D919D /* NSStoryboad+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSStoryboad+Localization.swift"; sourceTree = "<group>"; };
+		A33B2BFE1FB986A4009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/apple.png; sourceTree = "<group>"; };
+		A33B2C071FB987FC009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SampleView.xib; sourceTree = "<group>"; };
+		A33B2C0C1FB98DEC009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/SampleView~osx.xib"; sourceTree = "<group>"; };
+		A33B2C131FB98EF1009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/SampleStoryboard.storyboard; sourceTree = "<group>"; };
+		A33B2C181FB99042009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/SampleStoryboard~osx.storyboard"; sourceTree = "<group>"; };
 		A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationToolkit.h; sourceTree = "<group>"; };
 		A384D7BD1F9F36100056B13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Others.strings; sourceTree = "<group>"; };
 		A384D7C21F9F36130056B13D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -313,6 +327,11 @@
 				A38EF2C71DECF97000637484 /* LocalizationToolkitTests.swift */,
 				A384D7BE1F9F36100056B13D /* Others.strings */,
 				A384D7C31F9F36130056B13D /* Localizable.strings */,
+				A33B2BFF1FB986A4009A94FA /* apple.png */,
+				A33B2C081FB987FC009A94FA /* SampleView.xib */,
+				A33B2C0D1FB98DEC009A94FA /* SampleView~osx.xib */,
+				A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */,
+				A33B2C191FB99042009A94FA /* SampleStoryboard~osx.storyboard */,
 			);
 			path = LocalizationToolkitTests;
 			sourceTree = "<group>";
@@ -609,7 +628,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33B2C041FB987FC009A94FA /* SampleView.xib in Resources */,
+				A33B2C111FB98EF1009A94FA /* SampleStoryboard.storyboard in Resources */,
 				A384D7BA1F9F36100056B13D /* Others.strings in Resources */,
+				A33B2BFB1FB986A4009A94FA /* apple.png in Resources */,
 				A384D7BF1F9F36130056B13D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,7 +654,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33B2C051FB987FC009A94FA /* SampleView.xib in Resources */,
+				A33B2C121FB98EF1009A94FA /* SampleStoryboard.storyboard in Resources */,
 				A384D7BB1F9F36100056B13D /* Others.strings in Resources */,
+				A33B2BFC1FB986A4009A94FA /* apple.png in Resources */,
 				A384D7C01F9F36130056B13D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,6 +674,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A384D7BC1F9F36100056B13D /* Others.strings in Resources */,
+				A33B2C171FB99042009A94FA /* SampleStoryboard~osx.storyboard in Resources */,
+				A33B2C0B1FB98DEC009A94FA /* SampleView~osx.xib in Resources */,
+				A33B2BFD1FB986A4009A94FA /* apple.png in Resources */,
 				A384D7C11F9F36130056B13D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1090,6 +1118,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A33B2BFF1FB986A4009A94FA /* apple.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33B2BFE1FB986A4009A94FA /* en */,
+			);
+			name = apple.png;
+			sourceTree = "<group>";
+		};
+		A33B2C081FB987FC009A94FA /* SampleView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33B2C071FB987FC009A94FA /* en */,
+			);
+			name = SampleView.xib;
+			sourceTree = "<group>";
+		};
+		A33B2C0D1FB98DEC009A94FA /* SampleView~osx.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33B2C0C1FB98DEC009A94FA /* en */,
+			);
+			name = "SampleView~osx.xib";
+			sourceTree = "<group>";
+		};
+		A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33B2C131FB98EF1009A94FA /* en */,
+			);
+			name = SampleStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A33B2C191FB99042009A94FA /* SampleStoryboard~osx.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33B2C181FB99042009A94FA /* en */,
+			);
+			name = "SampleStoryboard~osx.storyboard";
+			sourceTree = "<group>";
+		};
 		A384D7BE1F9F36100056B13D /* Others.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
