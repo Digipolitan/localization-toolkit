@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "LocalizationToolkit"
-s.version = "1.1.0"
+s.version = "1.1.1"
 s.summary = "Localization helper for swift project"
 s.homepage = "https://github.com/Digipolitan/localization-toolkit"
 s.authors = "Digipolitan"
