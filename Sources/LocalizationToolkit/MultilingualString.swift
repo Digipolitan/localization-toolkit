@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class MultilingualString {
+open class MultilingualString: Hashable {
 
     public let values: [String: String]
 
@@ -37,5 +37,13 @@ open class MultilingualString {
             return res
         }
         return self.localized(specific: Localization.fallbackLanguage)
+    }
+
+    public var hashValue: Int {
+        return self.localized()?.hashValue ?? 0
+    }
+
+    public static func == (lhs: MultilingualString, rhs: MultilingualString) -> Bool {
+        return lhs.values == rhs.values
     }
 }
