@@ -67,19 +67,19 @@ public class Localization {
     }
 
     public func localizedBundle(language: String? = nil, from bundle: Bundle = .main) -> Bundle? {
-        let lg = language ?? self.appLanguage
-        if let cache = self.localizedBundleCache[bundle.bundlePath]?[lg] {
+        let clg = language ?? self.appLanguage
+        if let cache = self.localizedBundleCache[bundle.bundlePath]?[clg] {
             return cache
         }
         if self.localizedBundleCache[bundle.bundlePath] == nil {
             self.localizedBundleCache[bundle.bundlePath] = [:]
         }
-        if let localizedBundle = bundle.localizedBundle(language: lg) {
-            self.localizedBundleCache[bundle.bundlePath]?[lg] = localizedBundle
+        if let localizedBundle = bundle.localizedBundle(language: clg) {
+            self.localizedBundleCache[bundle.bundlePath]?[clg] = localizedBundle
             return localizedBundle
         }
         if let baseBundle = bundle.localizedBundle(language: Localization.baseBundle) {
-            self.localizedBundleCache[bundle.bundlePath]?[lg] = baseBundle
+            self.localizedBundleCache[bundle.bundlePath]?[clg] = baseBundle
             return baseBundle
         }
         return nil
