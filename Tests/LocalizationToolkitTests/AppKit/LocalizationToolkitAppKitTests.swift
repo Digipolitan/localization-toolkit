@@ -12,7 +12,7 @@ class LocalizationToolkitAppKitTests: XCTestCase {
     }
 
     func testLoadLocalizedNib() {
-        let nib = NSNib.localizedNibNamed(name: .init("SampleView~osx"), bundle: LocalizationToolkitAppKitTests.testsBundle)
+        let nib = NSNib.localizedNibNamed(name: "SampleView~osx", bundle: LocalizationToolkitAppKitTests.testsBundle)
         XCTAssertNotNil(nib)
         var topLevelArray: NSArray? = nil
         nib?.instantiate(withOwner: nil, topLevelObjects: &topLevelArray)
@@ -20,7 +20,7 @@ class LocalizationToolkitAppKitTests: XCTestCase {
     }
 
     func testLoadLocalizedStoryboard() {
-        let storyboard = NSStoryboard.localizedStoryboardNamed(name: .init("SampleStoryboard~osx"), bundle: LocalizationToolkitAppKitTests.testsBundle)
+        let storyboard = NSStoryboard.localizedStoryboardNamed(name: "SampleStoryboard~osx", bundle: LocalizationToolkitAppKitTests.testsBundle)
         XCTAssertNotNil(storyboard.instantiateInitialController())
     }
 }
