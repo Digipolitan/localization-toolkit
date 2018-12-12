@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.2](https://github.com/Digipolitan/localization-toolkit/releases/tag/v1.1.2)
+
+fix swift version 4.2
+
+---
+
 ## [1.1.1](https://github.com/Digipolitan/localization-toolkit/releases/tag/v1.1.1)
 
 add hashable to multilingualString
