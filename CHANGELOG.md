@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0](https://github.com/Digipolitan/localization-toolkit/releases/tag/v1.2.0)
+
+swift 5 support
+add fallback language from plist
+
+---
+
 ## [1.1.2](https://github.com/Digipolitan/localization-toolkit/releases/tag/v1.1.2)
 
 fix swift version 4.2
