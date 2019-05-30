@@ -13,5 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = MultilingualString(values: [
+            "fr": "Bonjour",
+            "en": "Hello"
+        ]).localized()
     }
 }

@@ -15,10 +15,14 @@ public class Localization {
         public static let device = "AppleLanguages"
     }
 
-    public static var baseBundle = "Base"
-    public static var fallbackLanguage = "en"
+    public enum InfoKeys {
+        public static let root = "LocalizationToolkit"
+        public static let fallbackLanguage = "FallbackLanguage"
+    }
 
     public static let shared = Localization()
+
+    public let fallbackLanguage: String
 
     public private(set) var appLanguage: String {
         didSet {
@@ -43,10 +47,13 @@ public class Localization {
     private var localizedBundleCache: [String: [String: Bundle]]
 
     private init() {
-        self.appLanguage =  Localization.loadAppLanguage()
+        let settings = Bundle.main.infoDictionary?[InfoKeys.root] as? [String: Any]
+        let fallbackLanguage = (settings?[InfoKeys.fallbackLanguage] as? String) ?? "en"
+        self.fallbackLanguage = fallbackLanguage
+        self.appLanguage =  Localization.loadAppLanguage() ?? fallbackLanguage
         self.deviceLanguages = UserDefaults.standard.object(forKey: Keys.device) as? [String] ?? []
         var appLanguages = Bundle.main.localizations
-        if let index = appLanguages.index(of: Localization.baseBundle) {
+        if let index = appLanguages.firstIndex(of: "Base") {
             appLanguages.remove(at: index)
         }
         self.appLanguages = appLanguages
@@ -78,14 +85,14 @@ public class Localization {
             self.localizedBundleCache[bundle.bundlePath]?[clg] = localizedBundle
             return localizedBundle
         }
-        if let baseBundle = bundle.localizedBundle(language: Localization.baseBundle) {
+        if let baseBundle = bundle.localizedBundle(language: "Base") {
             self.localizedBundleCache[bundle.bundlePath]?[clg] = baseBundle
             return baseBundle
         }
         return nil
     }
 
-    private static func loadAppLanguage() -> String {
+    private static func loadAppLanguage() -> String? {
         if let appLanguage = UserDefaults.standard.object(forKey: Keys.app) as? String {
             if Bundle.main.contains(language: appLanguage) {
                 return appLanguage
@@ -93,33 +100,33 @@ public class Localization {
             UserDefaults.standard.removeObject(forKey: Keys.app)
             UserDefaults.standard.synchronize()
         }
-        return Bundle.main.preferredLocalizations.first ?? Localization.fallbackLanguage
+        return Bundle.main.preferredLocalizations.first
     }
 }
 
 public extension Notification.Name {
 
-    public static let LocalizationDidChange = Notification.Name("LocalizationDidChangeNotification")
+    static let LocalizationDidChange = Notification.Name("LocalizationDidChangeNotification")
 }
 
 fileprivate extension Bundle {
-    fileprivate func contains(language: String) -> Bool {
+    func contains(language: String) -> Bool {
         if self.localizations.contains(language) {
             return true
         }
-        guard let dashIndex = language.index(of: "-") else {
+        guard let languageCode = language.languageCode else {
             return false
         }
-        return self.localizations.contains(String(language[..<dashIndex]))
+        return self.contains(language: languageCode)
     }
 
-    fileprivate func localizedBundle(language: String) -> Bundle? {
+    func localizedBundle(language: String) -> Bundle? {
         if let path = self.path(forResource: language, ofType: "lproj"), let localized = Bundle(path: path) {
             return localized
         }
-        guard let dashIndex = language.index(of: "-") else {
+        guard let languageCode = language.languageCode else {
             return nil
         }
-        return self.localizedBundle(language: String(language[..<dashIndex]))
+        return self.localizedBundle(language: languageCode)
     }
 }

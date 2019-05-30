@@ -14,7 +14,7 @@ class LocalizationToolkitAppKitTests: XCTestCase {
     func testLoadLocalizedNib() {
         let nib = NSNib.localizedNibNamed(name: "SampleView~osx", bundle: LocalizationToolkitAppKitTests.testsBundle)
         XCTAssertNotNil(nib)
-        var topLevelArray: NSArray? = nil
+        var topLevelArray: NSArray?
         nib?.instantiate(withOwner: nil, topLevelObjects: &topLevelArray)
         XCTAssert(topLevelArray?.count == 2)
     }

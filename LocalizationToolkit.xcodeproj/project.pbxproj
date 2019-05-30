@@ -104,6 +104,10 @@
 		2446A49CADD558DC4032B67F /* Pods-Tests-LocalizationToolkitTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LocalizationToolkitTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-LocalizationToolkitTests-OSX/Pods-Tests-LocalizationToolkitTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		2DA1A725502C485950746D1D /* Pods_Frameworks_LocalizationToolkit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_LocalizationToolkit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D164D2309130534383E70C /* Pods-Frameworks-LocalizationToolkit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-LocalizationToolkit-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-LocalizationToolkit-tvOS/Pods-Frameworks-LocalizationToolkit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		51FE294222A07A6700EED0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SampleView.xib; sourceTree = "<group>"; };
+		51FE294322A07A6700EED0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/SampleView~osx.xib"; sourceTree = "<group>"; };
+		51FE294422A07A6700EED0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SampleStoryboard.storyboard; sourceTree = "<group>"; };
+		51FE294522A07A6700EED0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/SampleStoryboard~osx.storyboard"; sourceTree = "<group>"; };
 		53A96A04A983C7A0BF8FE3E8 /* Pods-Frameworks-LocalizationToolkit-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-LocalizationToolkit-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-LocalizationToolkit-OSX/Pods-Frameworks-LocalizationToolkit-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		569132CAD4E5D36B72006659 /* Pods-Tests-LocalizationToolkitTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LocalizationToolkitTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-LocalizationToolkitTests-tvOS/Pods-Tests-LocalizationToolkitTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5DC1476DA9D7CC24D68A74FB /* Pods-Frameworks-LocalizationToolkit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-LocalizationToolkit-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-LocalizationToolkit-iOS/Pods-Frameworks-LocalizationToolkit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,10 +123,6 @@
 		A3169E0C1DE072C700BABAFD /* LocalizationToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizationToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* LocalizationToolkitTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LocalizationToolkitTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33B2BFE1FB986A4009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/apple.png; sourceTree = "<group>"; };
-		A33B2C071FB987FC009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SampleView.xib; sourceTree = "<group>"; };
-		A33B2C0C1FB98DEC009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/SampleView~osx.xib"; sourceTree = "<group>"; };
-		A33B2C131FB98EF1009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/SampleStoryboard.storyboard; sourceTree = "<group>"; };
-		A33B2C181FB99042009A94FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/SampleStoryboard~osx.storyboard"; sourceTree = "<group>"; };
 		A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Localization.swift"; sourceTree = "<group>"; };
 		A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Localization.swift"; sourceTree = "<group>"; };
 		A33B2C201FB993FA009A94FA /* NSImage+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+Localization.swift"; sourceTree = "<group>"; };
@@ -552,13 +552,13 @@
 					A3169DAF1DE05E8300BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DB81DE05E8300BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DDD1DE06EF400BABAFD = {
@@ -595,10 +595,11 @@
 			};
 			buildConfigurationList = A3169DAA1DE05E8300BABAFD /* Build configuration list for PBXProject "LocalizationToolkit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A3169DA61DE05E8300BABAFD;
 			productRefGroup = A3169DB11DE05E8300BABAFD /* Products */;
@@ -982,7 +983,7 @@
 		A33B2C081FB987FC009A94FA /* SampleView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A33B2C071FB987FC009A94FA /* en */,
+				51FE294222A07A6700EED0EC /* Base */,
 			);
 			name = SampleView.xib;
 			sourceTree = "<group>";
@@ -990,7 +991,7 @@
 		A33B2C0D1FB98DEC009A94FA /* SampleView~osx.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A33B2C0C1FB98DEC009A94FA /* en */,
+				51FE294322A07A6700EED0EC /* Base */,
 			);
 			name = "SampleView~osx.xib";
 			sourceTree = "<group>";
@@ -998,7 +999,7 @@
 		A33B2C141FB98EF1009A94FA /* SampleStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A33B2C131FB98EF1009A94FA /* en */,
+				51FE294422A07A6700EED0EC /* Base */,
 			);
 			name = SampleStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -1006,7 +1007,7 @@
 		A33B2C191FB99042009A94FA /* SampleStoryboard~osx.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A33B2C181FB99042009A94FA /* en */,
+				51FE294522A07A6700EED0EC /* Base */,
 			);
 			name = "SampleStoryboard~osx.storyboard";
 			sourceTree = "<group>";
@@ -1085,7 +1086,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1139,7 +1140,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1164,7 +1165,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.localizationtoolkit;
 				PRODUCT_NAME = LocalizationToolkit;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1185,7 +1185,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.localizationtoolkit;
 				PRODUCT_NAME = LocalizationToolkit;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
