@@ -63,6 +63,18 @@ let loc = "my_loc_key".localized()
 print("\(loc)")
 ```
 
+## Advanced
+
+You can specify the fallback language in the Info.plist as follow:
+
+```xml
+<key>LocalizationToolkit</key>
+<dict>
+	<key>FallbackLanguage</key>
+	<string>fr</string>
+</dict>
+```
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more details!
