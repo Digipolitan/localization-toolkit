@@ -24,6 +24,10 @@
 		51FE296022A13BAC00EED0EC /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE295C22A13B8C00EED0EC /* UILabel+Localization.swift */; };
 		51FE296222A13BCE00EED0EC /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE296122A13BCE00EED0EC /* UIButton+Localization.swift */; };
 		51FE296422A13BEC00EED0EC /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE296322A13BEC00EED0EC /* UITextField+Localization.swift */; };
+		51FE298122A147C500EED0EC /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE295C22A13B8C00EED0EC /* UILabel+Localization.swift */; };
+		51FE298222A147CB00EED0EC /* UITextView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE295E22A13BA700EED0EC /* UITextView+Localization.swift */; };
+		51FE298322A147D200EED0EC /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE296122A13BCE00EED0EC /* UIButton+Localization.swift */; };
+		51FE298422A147D500EED0EC /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE296322A13BEC00EED0EC /* UITextField+Localization.swift */; };
 		6D453CAF7BFADECB935BEE5A /* Pods_Frameworks_LocalizationToolkit_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23417784C827FE443744EB11 /* Pods_Frameworks_LocalizationToolkit_watchOS.framework */; };
 		7469A9B0074A3573EF6597F4 /* Pods_Frameworks_LocalizationToolkit_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D60D94568CD1874C353733 /* Pods_Frameworks_LocalizationToolkit_OSX.framework */; };
 		7EBFB0B6B653C7A3BD0B83DB /* Pods_Frameworks_LocalizationToolkit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA790FDBFD220F0C7A2C5EF /* Pods_Frameworks_LocalizationToolkit_iOS.framework */; };
@@ -926,12 +930,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33B2C531FB99844009A94FA /* UINib+Localization.swift in Sources */,
+				51FE298222A147CB00EED0EC /* UITextView+Localization.swift in Sources */,
 				A33B2C331FB993FA009A94FA /* Bundle+Localization.swift in Sources */,
 				A33B2C551FB99844009A94FA /* UIStoryboard+Localization.swift in Sources */,
 				A33B2C431FB993FA009A94FA /* String+Localization.swift in Sources */,
 				A3892C0D1FB7CDE7009C2712 /* Localization.swift in Sources */,
+				51FE298322A147D200EED0EC /* UIButton+Localization.swift in Sources */,
 				A33B2C2F1FB993FA009A94FA /* UIImage+Localization.swift in Sources */,
+				51FE298422A147D500EED0EC /* UITextField+Localization.swift in Sources */,
 				A33B2C471FB993FA009A94FA /* MultilingualString.swift in Sources */,
+				51FE298122A147C500EED0EC /* UILabel+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

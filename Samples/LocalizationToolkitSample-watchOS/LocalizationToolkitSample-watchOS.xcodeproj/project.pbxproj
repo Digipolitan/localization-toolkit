@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1D25B01A85C50721A7F6DA57 /* Pods_Samples_watchOS_LocalizationToolkitSample_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192221AA4E8CF2048E97DFAB /* Pods_Samples_watchOS_LocalizationToolkitSample_watchOS.framework */; };
 		51FE297022A140A000EED0EC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51FE297222A140A000EED0EC /* Localizable.strings */; };
-		51FE297822A1429D00EED0EC /* LocalizationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FE297722A1429D00EED0EC /* LocalizationToolkit.framework */; };
 		A30D641F1E0D759D00A3CE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D641E1E0D759D00A3CE45 /* AppDelegate.swift */; };
 		A30D64261E0D759D00A3CE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D64251E0D759D00A3CE45 /* Assets.xcassets */; };
 		A30D64291E0D759D00A3CE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30D64271E0D759D00A3CE45 /* LaunchScreen.storyboard */; };
@@ -87,7 +86,6 @@
 		192221AA4E8CF2048E97DFAB /* Pods_Samples_watchOS_LocalizationToolkitSample_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samples_watchOS_LocalizationToolkitSample_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FCAB03B6200D30C3A47298 /* Pods-LocalizationToolkitSample-LocalizationToolkitSample-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizationToolkitSample-LocalizationToolkitSample-watchOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-LocalizationToolkitSample-LocalizationToolkitSample-watchOS/Pods-LocalizationToolkitSample-LocalizationToolkitSample-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		51FE297122A140A000EED0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		51FE297722A1429D00EED0EC /* LocalizationToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LocalizationToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3FDC6F5B65B3F062A771FF /* Pods_Samples_watchOS_LocalizationToolkitSample_watchOS_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samples_watchOS_LocalizationToolkitSample_watchOS_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE2B4E3595007C23F873C4 /* Pods_LocalizationToolkitSample_LocalizationToolkitSample_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizationToolkitSample_LocalizationToolkitSample_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D641B1E0D759D00A3CE45 /* LocalizationToolkitSample-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocalizationToolkitSample-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51FE297822A1429D00EED0EC /* LocalizationToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +200,6 @@
 		A30D645D1E0D76BC00A3CE45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				51FE297722A1429D00EED0EC /* LocalizationToolkit.framework */,
 				A30D64611E0D76DB00A3CE45 /* watchOS */,
 				A30D64601E0D76D600A3CE45 /* iOS */,
 				A1BE2B4E3595007C23F873C4 /* Pods_LocalizationToolkitSample_LocalizationToolkitSample_watchOS.framework */,
