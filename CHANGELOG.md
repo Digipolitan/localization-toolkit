@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.3.0](https://github.com/Digipolitan/localization-toolkit/releases/tag/v1.3.0)
+
+add IB tools for UIKit most popular subclasses
+
+---
+
 ## [1.2.0](https://github.com/Digipolitan/localization-toolkit/releases/tag/v1.2.0)
 
 swift 5 support
