@@ -20,6 +20,10 @@
 		51FE295922A0973F00EED0EC /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FE294F22A0971100EED0EC /* apple.png */; };
 		51FE295A22A0973F00EED0EC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51FE295122A0971100EED0EC /* Localizable.strings */; };
 		51FE295B22A0973F00EED0EC /* Others.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51FE294D22A0971100EED0EC /* Others.strings */; };
+		51FE295F22A13BA700EED0EC /* UITextView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE295E22A13BA700EED0EC /* UITextView+Localization.swift */; };
+		51FE296022A13BAC00EED0EC /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE295C22A13B8C00EED0EC /* UILabel+Localization.swift */; };
+		51FE296222A13BCE00EED0EC /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE296122A13BCE00EED0EC /* UIButton+Localization.swift */; };
+		51FE296422A13BEC00EED0EC /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE296322A13BEC00EED0EC /* UITextField+Localization.swift */; };
 		6D453CAF7BFADECB935BEE5A /* Pods_Frameworks_LocalizationToolkit_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23417784C827FE443744EB11 /* Pods_Frameworks_LocalizationToolkit_watchOS.framework */; };
 		7469A9B0074A3573EF6597F4 /* Pods_Frameworks_LocalizationToolkit_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D60D94568CD1874C353733 /* Pods_Frameworks_LocalizationToolkit_OSX.framework */; };
 		7EBFB0B6B653C7A3BD0B83DB /* Pods_Frameworks_LocalizationToolkit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA790FDBFD220F0C7A2C5EF /* Pods_Frameworks_LocalizationToolkit_iOS.framework */; };
@@ -111,6 +115,10 @@
 		51FE294E22A0971100EED0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Others.strings; sourceTree = "<group>"; };
 		51FE295022A0971100EED0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/apple.png; sourceTree = "<group>"; };
 		51FE295222A0971100EED0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51FE295C22A13B8C00EED0EC /* UILabel+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Localization.swift"; sourceTree = "<group>"; };
+		51FE295E22A13BA700EED0EC /* UITextView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Localization.swift"; sourceTree = "<group>"; };
+		51FE296122A13BCE00EED0EC /* UIButton+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Localization.swift"; sourceTree = "<group>"; };
+		51FE296322A13BEC00EED0EC /* UITextField+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Localization.swift"; sourceTree = "<group>"; };
 		53A96A04A983C7A0BF8FE3E8 /* Pods-Frameworks-LocalizationToolkit-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-LocalizationToolkit-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-LocalizationToolkit-OSX/Pods-Frameworks-LocalizationToolkit-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		569132CAD4E5D36B72006659 /* Pods-Tests-LocalizationToolkitTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LocalizationToolkitTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-LocalizationToolkitTests-tvOS/Pods-Tests-LocalizationToolkitTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5DC1476DA9D7CC24D68A74FB /* Pods-Frameworks-LocalizationToolkit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-LocalizationToolkit-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-LocalizationToolkit-iOS/Pods-Frameworks-LocalizationToolkit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -274,6 +282,10 @@
 				A33B2C501FB99844009A94FA /* UINib+Localization.swift */,
 				A33B2C511FB99844009A94FA /* UIStoryboard+Localization.swift */,
 				A33B2C1D1FB993F9009A94FA /* UIImage+Localization.swift */,
+				51FE295C22A13B8C00EED0EC /* UILabel+Localization.swift */,
+				51FE295E22A13BA700EED0EC /* UITextView+Localization.swift */,
+				51FE296122A13BCE00EED0EC /* UIButton+Localization.swift */,
+				51FE296322A13BEC00EED0EC /* UITextField+Localization.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -323,10 +335,10 @@
 			children = (
 				A370DEC41FB0A49C000FEDED /* LocalizationToolkit.h */,
 				A3892C0A1FB7CDE6009C2712 /* Localization.swift */,
-				A33B2C1F1FB993FA009A94FA /* AppKit */,
 				A33B2C1E1FB993F9009A94FA /* Bundle+Localization.swift */,
 				A33B2C241FB993FA009A94FA /* MultilingualString.swift */,
 				A33B2C231FB993FA009A94FA /* String+Localization.swift */,
+				A33B2C1F1FB993FA009A94FA /* AppKit */,
 				A33B2C1A1FB993F9009A94FA /* UIKit */,
 			);
 			path = LocalizationToolkit;
@@ -876,9 +888,13 @@
 			files = (
 				A33B2C521FB99844009A94FA /* UINib+Localization.swift in Sources */,
 				A33B2C311FB993FA009A94FA /* Bundle+Localization.swift in Sources */,
+				51FE295F22A13BA700EED0EC /* UITextView+Localization.swift in Sources */,
 				A33B2C541FB99844009A94FA /* UIStoryboard+Localization.swift in Sources */,
 				A33B2C411FB993FA009A94FA /* String+Localization.swift in Sources */,
+				51FE296022A13BAC00EED0EC /* UILabel+Localization.swift in Sources */,
+				51FE296222A13BCE00EED0EC /* UIButton+Localization.swift in Sources */,
 				A3892C0B1FB7CDE6009C2712 /* Localization.swift in Sources */,
+				51FE296422A13BEC00EED0EC /* UITextField+Localization.swift in Sources */,
 				A33B2C2D1FB993FA009A94FA /* UIImage+Localization.swift in Sources */,
 				A33B2C451FB993FA009A94FA /* MultilingualString.swift in Sources */,
 			);
